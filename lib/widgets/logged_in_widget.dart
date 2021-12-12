@@ -51,7 +51,6 @@ class LoggedInWidget extends StatelessWidget {
               height: 10,
             ),
             Text(
-              // 'Name : ${controller.user.displayName!}',
               'Name : ${user.displayName!}',
               style: const TextStyle(fontSize: 20, color: Colors.white),
             ),
@@ -59,7 +58,6 @@ class LoggedInWidget extends StatelessWidget {
               height: 10,
             ),
             Text(
-              // 'Email : ${controller.user.email}',
               'Email : ${user.email!}',
               style: const TextStyle(fontSize: 20, color: Colors.white),
             ),
